@@ -39,7 +39,7 @@ const NavBar = () => {
             <div className="sm:flex sm:gap-4">
               <Link
                 className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
-                href="https://accounts.databaseph.com/services/login?dm=financial-loc&dk=test1JrWRsqrwqeqrse1wqes513wqsfr"
+                href="https://accounts.databaseph.com/services/login?dm=staging-financialplanph&dk=stagingJrWRsqrwqeqrse1wqes513wqs"
               >
                 Login
               </Link>
