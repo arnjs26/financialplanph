@@ -25,6 +25,8 @@ import { setData, setClients } from "@/provider/redux/StateController";
 import { useDispatch, useSelector } from "react-redux";
 import { api } from "@/app/lib/libapi";
 
+export const dynamicParams = true
+
 const summarySubPath = ({ params }) => {
   const op = "summary";
   const router = useRouter();
